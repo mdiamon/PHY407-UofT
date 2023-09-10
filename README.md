@@ -10,9 +10,9 @@
 
   `cd PHY407`
 
-4. In there, clone the Fall2023 branch of the repo:
+4. In there, clone the repo:
 
-  `git clone --branch Fall2023 --single-branch https://github.com/mdiamon/PHY407-UofT.git`
+  `git clone https://github.com/mdiamon/PHY407-UofT.git`
 
   This should create a new folder called `PHY407-UofT`.
 
@@ -24,7 +24,7 @@ As the class progresses, I will add notes and code.
 6. If you just want to play around with the notes a little in-between two updates but want your repository to closely match what I have on GitHub, enter the command 
 
   `git fetch --all`
-  `git reset --hard origin/Fall2023`
+  `git reset --hard origin`
 
   in the Terminal, where you left at the end of step 5, whenever you want to re-align your notes with mine.
 
